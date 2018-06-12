@@ -1,5 +1,39 @@
-* {
+body {
+	font-family: 'Sunflower', sans-serif;
+	background-color: #F6F6F6;
+}
+
+img {
+	user-select: none;
+}
+
+.navbar {
+	background-color: #7ABAFF;
+}
+
+.carousel-container {
+	margin: 40px auto 40px auto;
+	padding: 0;
+}
+
+section {
+	padding: 40px;
+}
+
+section:nth-of-type(even) {
+	background-color: #E5E5E5;
+}
+
+.section-text {
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+.nav-item:hover {
+	background-color: #2196BC;
+}
+
+.section-image {
 	margin: 0;
 	padding: 0;
-	content: border-box;
 }
